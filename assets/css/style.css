@@ -1,0 +1,228 @@
+/**
+*
+* Description: Stylesheet 
+*
+**/
+
+body{
+margin:0px;
+padding:0px;
+color:#000;
+}
+p{
+font-size: 20px;
+}
+a:hover {
+    color: #A5A5A5;
+    text-decoration: none;
+}
+img {
+max-width: 100%;
+}
+.align-center {
+text-align:center;
+}
+ul {
+padding:0;
+}
+/* -- Navigation bar CSS -- */
+.navbar-dark .navbar-nav .nav-link {
+color: #787777;
+}
+.navbar-dark .navbar-brand {
+color: #787777;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+color: #A5A5A5;
+}
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+color: #A5A5A3;
+}
+ul.social-nav {
+list-style-type: none;
+display: inline;
+}
+.socail-item{
+display: inline;
+padding-right:10px;
+}
+.socail-link{
+color: #A5A5A3;
+}
+.mobile-icon{
+color: #787777;
+}
+.social-nav{
+list-style-type:none;
+display:inline;
+}
+.socail-item {
+display:inline;
+}
+.socail-link {
+color: #787777;
+}
+.navbar-dark .navbar-toggler{
+border: 1px solid #787777;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+/*-- Hero Section CSS -- */
+.hero-section {
+background-image: url('../images/back-test-1.jpg');
+height:100vh;
+background-size: contain;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.mobile-hero-section {
+display:none;
+visibility:hidden;
+}
+#addQuestion {
+width: 100%;
+height: 100vh;
+margin: 0 auto;
+overflow: hidden;
+padding: 10px 0;
+vertical-align: middle;
+justify-content: space-around;
+display: table-cell;
+float: none;
+color: #000;
+text-align: center;
+}
+.btn-custom {
+background-color: transparent;
+border: 1px solid #000;
+font-size: 20px;
+padding: 6px 25px;
+color:#000;
+}
+/*-- Cameras Section CSS -- */
+.cameras-section {
+padding:80px 0 0;
+text-align:center;
+}
+.btn-custom-1 {
+background-color: #fff;
+border-bottom: 1px solid #000;
+font-size: 20px;
+color:#000;
+}
+.padding-top {
+padding-top:100px;
+}
+/*-- Charger Section CSS -- */
+.charger-section{
+padding:80px 0 0;
+text-align:center;	
+}
+.border-bottom {
+border-bottom: 2px solid #f4f4f4 !important;
+}
+/*-- Network Section CSS -- */
+.Network-section {
+padding:80px 0 0;
+text-align:center;
+}
+/*-- Email Section CSS -- */
+.Email-section {
+padding:100px 0;
+text-align:center;
+}
+.col-sm-11, .col-sm-1 {
+float:left;
+padding-left: 0px;
+padding-right: 0px;
+}
+#form-width {
+width:70%;
+margin: 0 auto;
+}
+.form-control {
+border-bottom: 1px solid #ced4da;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+}
+i.fa.fa-angle-right {
+background-color: #000;
+padding: 5px 12px;
+border-radius: 50px;
+}
+button.submit-btn {
+background-color: #fff;
+border: 0;
+color: #fff;
+width: 100%;
+border-bottom: 1px solid #ced4da;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+padding-bottom: 9px;
+}
+/*-- Footer CSS -- */
+.footer{
+padding:50px 0 0;
+background-color:#fcfcfc;
+}
+.col-sm-3{
+float:left;
+}
+.custom-ul{
+list-style-type: none;
+padding: 0;
+}
+.footer a{
+color: initial;
+line-height: 36px;
+}
+.footer p{
+font-size: 15px;
+}
+.col-sm-5 {
+float:left;
+}
+.col-sm-4 {
+float:left;
+}
+.col-sm-3 {
+float:left;
+}
+.footer-ul {
+list-style-type:none;
+}
+.footer-ul li {
+display:inline;
+padding-left: 13px;
+}
+.footer-padding {
+overflow: hidden;
+padding:20px 0 0;
+border-bottom: 2px solid #d1d1d1;
+}
+.copyright {
+padding:20px 0 0;
+}
+@media (max-width:420px){
+.hero-section {
+display:none;
+visibility:hidden;
+}
+.mobile-hero-section{
+display:block;
+visibility:visible;
+background-image: url('../images/mobile-back.jpg');
+text-align:center;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 20px 0px;
+}
+.mobile-img {
+    margin-top: 25px;
+}
+.brand-mobile {
+text-align:center;
+}
+}
